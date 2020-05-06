@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(238, 242, 248);
+}
+.heading {
+  background: #4267b2;
+  width: 100%;
+  height: 85px;
+  box-sizing: border-box;
+  display: flex;
+  color: white;
+  border-radius: 3px;
+}
+.heading h1 {
+  padding-left: 200px;
+  padding-top: 22px;
+  font-size: 43px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.form {
+  display: flex;
+}
+.email {
+  width: 150px;
+  height: 30px;
+  padding-left: 450px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+.password {
+  width: 150px;
+  height: 30px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+a {
+  color: #bdbeba;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+.button {
+  padding-left: 26px;
+  padding-top: 38px;
+}
+.bd {
+  height;
+}
+.btn {
+  font-size: 13px;
+  width: 50px;
+  height: 25px;
+  color: white;
+  background: rgb(73, 114, 197);
+  border: solid rgb(105, 104, 104) 0.6px;
+}
+.btn:hover {
+  background: #4267b2;
+}
+.first {
+  width: 725px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+  box-sizing: border-box;
+  padding-left: 270px;
+  padding-top: 65px;
+}
+.first h6 {
+  font-size: 30px;
+  font-weight: 20px;
+  color: rgb(43, 41, 41);
+}
+
+.first p {
+  font-size: 17px;
+  color: rgb(121, 106, 106);
+}
+strong {
+  color: black;
+}
+.second {
+  width: 388px;
+  height: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.second h1 {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.whole {
+  display: flex;
+}
+.second p {
+  font-size: 20px;
+}
+#name {
+  width: 190px;
+  height: 30px;
+  border-radius: 3px;
+  border: thin solid rgb(167, 162, 162);
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.no {
+  width: 388px;
+  height: 30px;
+  border-radius: 3px;
+  border: thin solid rgb(167, 162, 162);
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.para > strong {
+  color: rgb(105, 104, 104);
+  font-size: 20px;
+}
+#month {
+  width: 62px;
+  height: 25px;
+  text-transform: capitalize;
+}
+label {
+  font-size: 22px;
+  word-spacing: 0px;
+}
+#fem {
+  background: grey;
+}
+p.end {
+  font-size: 15px;
+  color: gray;
+}
+p.end a {
+  color: #4267b2;
+}
+.main {
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  color: white;
+  background: rgb(65, 158, 46);
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+.main:hover {
+  background: rgb(57, 170, 34);
+}
+.log a {
+  font-size: 16px;
+  color: #4267b2;
+}
+.log {
+  border-top: solid 0.5px rgb(226, 223, 223);
+  padding-top: 10px;
+  font: 15px;
+}
+.footer {
+  background-color: rgb(58, 46, 46);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  color: rgb(101, 136, 65);
+  padding-top: 20px;
+}
